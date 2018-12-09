@@ -25,7 +25,7 @@ elif x>90 and x<=100:
     elif y>10 and y<=90:
         print("Pozycja gracza: prawa krawędź")
     elif y>90 and y<=100:
-        print("Pozycja gracza: lewy górny róg")
+        print("Pozycja gracza: prawy górny róg")
     else:
         print ("Gracz poza planszą")
 else:

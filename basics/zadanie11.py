@@ -28,3 +28,5 @@ elif x>90 and x<=100:
         print("Pozycja gracza: lewy górny róg")
     else:
         print ("Gracz poza planszą")
+else:
+    print ("Gracz poza planszą")

@@ -56,3 +56,16 @@ for k in slownik1:
 slownik1.get('a') #nie ma takiego klkucza w słowniku
 slownik1.get('a',0) # wyrzuci 0 bo nie ma a w słowniku
 print(slownik1.get("aw"))
+
+
+#zbiory
+zbior={1,2,3,5}
+zbior.add(4)
+print(zbior)
+print (len(zbior))
+u=set([1,2,3])
+w={2,3,4}
+print(u-w)
+print(u|w)
+print(u&w)
+print(u^w)

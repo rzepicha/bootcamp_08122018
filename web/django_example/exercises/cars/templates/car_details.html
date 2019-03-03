@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Szczegóły samochodow</title>
+
+</head>
+
+<body>
+<h1>{{car.brand}}</h1>
+<h2>{{car.model}}</h2>
+<h2>{{car.year}}</h2>
+<h2>{{car.body_type}}</h2>
+<div>
+    {%if car.image%}
+    <img src="{{car.image.url}}" alt="Zdjęcie mercedesa">
+    {%endif%}
+</div>
+
+<a href="/cars/"> Lista..</a>
+</body>
+</html>
